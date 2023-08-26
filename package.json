@@ -1,0 +1,32 @@
+{
+  "name": "astro-capo",
+  "version": "0.0.0",
+  "description": "Automatically sort your head with capo.js in Astro",
+  "homepage": "https://github.com/natemoo-re/astro-capo#readme",
+  "bugs": {
+    "url": "https://github.com/natemoo-re/astro-capo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natemoo-re/astro-capo"
+  },
+  "files": [
+    "index.ts",
+    "src"
+  ],
+  "exports": "./index.ts",
+  "keywords": [
+    "astro",
+    "astro-component",
+    "performance",
+    "capo.js"
+  ],
+  "author": "Nate Moore",
+  "license": "MIT",
+  "dependencies": {
+    "ultrahtml": "^1.3.0"
+  },
+  "devDependencies": {
+    "astro": "2.10.14"
+  }
+}
