@@ -19,7 +19,10 @@
     "astro",
     "astro-component",
     "performance",
-    "capo.js"
+    "capo.js",
+    "head",
+    "order",
+    "optimization"
   ],
   "author": "Nate Moore",
   "license": "MIT",
@@ -28,5 +31,8 @@
   },
   "devDependencies": {
     "astro": "2.10.14"
+  },
+  "peerDependencies": {
+    "astro": ">= 2.8"
   }
 }
