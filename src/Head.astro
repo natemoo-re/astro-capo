@@ -1,9 +1,0 @@
----
-// @ts-ignore
-import { spreadAttributes } from 'astro/runtime/server/index.js';
-import capo from "./capo.ts";
-const children = await Astro.slots.render("default");
-const sorted = capo(`<head${spreadAttributes(Astro.props)}>${children}</head>`);
----
-
-<Fragment set:html={sorted} />
