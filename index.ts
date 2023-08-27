@@ -1,1 +1,1 @@
-export { Head } from './src/Head.js';
+export { Head } from './src/Head.ts';

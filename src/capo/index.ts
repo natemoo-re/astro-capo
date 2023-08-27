@@ -1,6 +1,6 @@
 import type { ElementNode } from 'ultrahtml';
 import { parse, walkSync, renderSync, ELEMENT_NODE } from 'ultrahtml';
-import { getWeight } from './rules.js';
+import { getWeight } from './rules.ts';
 
 export default function capo(html: string) {
     const ast = parse(html);
