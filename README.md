@@ -4,7 +4,7 @@ Get your `<head>` in order—automatically!
 
 `astro-capo` is a component that automatically optimizes the order of elements in your `<head>`, adapted from [Rick Viscomi](https://twitter.com/rick_viscomi)'s wonderful `capo.js` library.
 
-Unlike `capo.js`, which makes it easy to debug the optimal order of your `<head>` in the browser, `astro-capo` automatically optimizes your `<head>` on the server while rendering your page.
+Unlike [`capo.js`](https://rviscomi.github.io/capo.js/), which makes it easy to debug the optimal order of your `<head>` in the browser, `astro-capo` automatically optimizes your `<head>` on the server while rendering your page.
 
 ## Usage
 
