@@ -1,6 +1,6 @@
 {
   "name": "astro-capo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Automatically sort your head with capo.js in Astro",
   "homepage": "https://github.com/natemoo-re/astro-capo#readme",
   "bugs": {
